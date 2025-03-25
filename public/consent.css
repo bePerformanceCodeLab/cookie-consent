@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap");
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background: #121212;
+  color: #eeeeee;
+}
+
+.cookie-banner {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  background: #121212;
+  color: #eeeeee;
+  padding: 30px 20px;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.5);
+  border-top: 2px solid #00ff00;
+}
+
+.cookie-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.cookie-content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.cookie-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.category-list {
+  margin-bottom: 25px;
+}
+
+.category-list label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.category-list input[type="checkbox"] {
+  accent-color: #00ff00;
+  margin-right: 8px;
+}
+
+.cookie-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.cookie-buttons button {
+  background-color: transparent;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.cookie-buttons button:hover {
+  background-color: #00ff00;
+  color: #121212;
+}
+
+#privacy-link {
+  color: #eeeeee;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}

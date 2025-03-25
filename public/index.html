@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>be.performance - Cookie Consent Tool</title>
+    <link rel="stylesheet" href="frontend/consent.css" />
+    <script src="frontend/config.js"></script>
+    <script src="frontend/consent.js" defer></script>
+  </head>
+  <body>
+    <h1>Willkommen zur be.performance Cookie-Consent-Demo</h1>
+
+    <!-- Template (temporär direkt einfügen, später per JS injecten möglich) -->
+    <div id="cookie-banner" class="cookie-banner">
+      <div class="cookie-content">
+        <h3>Cookies auf dieser Seite</h3>
+        <p>
+          Wir verwenden Cookies, um Ihnen das beste Erlebnis zu bieten. Sie
+          können selbst entscheiden, welche Kategorien Sie zulassen möchten.
+        </p>
+    
+        <div id="cookie-categories" class="category-list"></div>
+    
+        <div class="cookie-buttons">
+          <button id="accept-all">Alle akzeptieren</button>
+          <button id="accept-only-necessary">Nur notwendige</button>
+          <button id="accept-selection">Auswahl bestätigen</button>
+        </div>
+    
+        <a href="" id="privacy-link" target="_blank">Mehr erfahren</a>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <a href="#" id="cookie-settings-link">Cookie-Einstellungen ändern</a>
+    </footer>
+  </body>
+</html>
