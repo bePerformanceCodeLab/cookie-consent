@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     localStorage.setItem("cookieConsent", JSON.stringify(consentData));
 
-    fetch("http://localhost:3000/log", {
+    fetch("https://log.beperformance.io/log", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ categories: consentArray }),
