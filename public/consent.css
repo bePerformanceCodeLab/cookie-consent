@@ -77,3 +77,30 @@ body {
   text-decoration: underline;
   font-size: 0.9rem;
 }
+
+@media (max-width: 768px) {
+  .cookie-content {
+    padding: 0 10px;
+  }
+
+  .cookie-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cookie-buttons button {
+    width: 100%;
+  }
+
+  .category-list label {
+    font-size: 0.95rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
